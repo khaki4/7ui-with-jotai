@@ -1,13 +1,12 @@
 import { DevTools } from "jotai-devtools";
-import { Counter } from "./tasks/Counter";
+import { TemperatureConverter } from "./tasks/TemperatureConverter";
 
 function App() {
   return (
     <>
       <DevTools isInitialOpen />
-      <div className="App">
-        <Counter />
-      </div>
+      {/*<Counter />*/}
+      <TemperatureConverter />
     </>
   );
 }
